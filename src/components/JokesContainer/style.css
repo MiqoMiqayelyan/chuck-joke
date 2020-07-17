@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  width: 100%;
+}
+
+.joke-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  padding: 20px 0;
+  background: #c4c4c4;
+}
+
+.joke-message {
+  height: 60vh;
+  margin-top: 10px;
+  padding: 0 10px;
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.button-container > button {
+  margin: 10px 10px 0 0;
+}
+
+.slide-button {
+  min-width: 80px;
+}
+
+.favorit-button {
+  width: 220px;
+}

@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
